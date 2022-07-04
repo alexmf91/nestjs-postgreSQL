@@ -4,7 +4,7 @@
 
 ## Description
 
-Alonefy api builded with nestjs, swagger and docker
+Api builded with nestjs, swagger, docker and postgreSQL
 
 # Running the app with docker orchestration deployment
 In the root of the backend project run the following comand:
@@ -14,8 +14,8 @@ docker compose up
 Aplications avaliable:
 - Api dev swagger documentation: http://localhost:8000/api
 - Api prod swagger documentation: http://localhost:5000/api
-- Mongo DB : http://localhost:27017
-- Mongo express interface : http://localhost:8081
+- Postgres : http://localhost:5432
+- PgAdmin interface : http://localhost:5050
 
 
 # Running the app locally without docker
